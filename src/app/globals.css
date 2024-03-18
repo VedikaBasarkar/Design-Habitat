@@ -24,10 +24,12 @@ body {
   color: #3C1002;
 }
 
-.title-font{
+.brown-title-font{
+  color: #3C1002;
   font-family: "Montserrat Alternates", san-serif;
   font-weight: 800;
   font-size: 48px;
+  text-shadow: 5px 5px #3c0f024d;
 }
 
 @layer utilities {

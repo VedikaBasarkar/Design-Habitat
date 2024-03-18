@@ -7,20 +7,20 @@ const Navigation = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
+              src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/logo/DH-logo-icon.svg"
+              className="h-12"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap">
-              Flowbite
+            <span className="self-center text-lg font-sans font-medium whitespace-nowrap">
+              Design Habitat
             </span>
           </a>
           <button
             dataCollapseToggle="navbar-multi-level"
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
-            ariaControls="navbar-multi-level"
-            ariaExpanded="false"
+            aria-controls="navbar-multi-level"
+            aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
             <svg
