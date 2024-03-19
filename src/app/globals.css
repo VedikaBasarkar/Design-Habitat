@@ -21,15 +21,59 @@
 
 body {
   font-family: "DM Sans", sans-serif;
-  color: #3C1002;
+  color: #621A01;
 }
 
 .brown-title-font{
-  color: #3C1002;
+  /* color: #BA3D14; */
+  color: #ee6336;
+  /* color: #bf4017; */
   font-family: "Montserrat Alternates", san-serif;
   font-weight: 800;
   font-size: 48px;
-  text-shadow: 5px 5px #3c0f024d;
+  text-shadow: 5px 5px #BA3D1434;
+}
+
+.orange-title-font{
+  color: #FB7C51;
+  font-family: "Montserrat Alternates", san-serif;
+  font-weight: 800;
+  font-size: 48px;
+  text-shadow: 5px 5px #FFE3D9;
+}
+
+.contact-page{
+  /* background-image: url("https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/background-contact.svg"); */
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 5vh 0 10vh 0;
+  /* height: 90vh; */
+  /* padding-bottom: 40%; */
+}
+
+.buttonCSS{
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #ee6336;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.buttonCSS:hover{
+  cursor: pointer;
+  background-color: #FB7C51;
+}
+
+.textarea{
+  padding: 10px 20px;
+  border: 1px solid #F9B81A;
+  border-radius: 12px;
+  color: #621A01;
+  font-size: 16px;
+  margin: 6px 0px;
+}
+.textarea::placeholder {
+  color: #6219013d;
 }
 
 @layer utilities {

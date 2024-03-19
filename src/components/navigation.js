@@ -12,11 +12,11 @@ const Navigation = () => {
               alt="Flowbite Logo"
             />
             <span className="self-center text-lg font-sans font-medium whitespace-nowrap">
-              Design Habitat
+              The Design Habitat
             </span>
           </a>
           <button
-            dataCollapseToggle="navbar-multi-level"
+            data-collapse-toggle="navbar-multi-level"
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
             aria-controls="navbar-multi-level"
