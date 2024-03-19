@@ -60,6 +60,15 @@ module.exports = {
       'mobBigBox':'3rem',
       'bigBox':'6rem'
     },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
     fontFamily: {
       'mont': ['Montserrat Alternates', 'san-serif'],
       'sans': ['DM sans', 'san-serif']

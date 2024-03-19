@@ -1,18 +1,38 @@
-import React from 'react'
-import '../../app/globals.css'
+import React from 'react';
 
-const Courses
- = () => {
+const Courses = () => {
+  // Define the JSON data directly within the component
+  const data = [
+    {
+      "id": 1,
+      "name": "John",
+      "age": 30
+    },
+    {
+      "id": 2,
+      "name": "Alice",
+      "age": 25
+    },
+    {
+      "id": 3,
+      "name": "Bob",
+      "age": 35
+    }
+  ];
+
   return (
-    <div>
-        <div>
-          <img className='team-profile' src='https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-1.png' />
-          <div className='w-full rounded-lg text-center bg-white -mt-10 p-2 border border-primary-400'>
-            <div className='text-lg font-bold'>Aditya Wadher</div>
-          </div>
-        </div>
+    <div className='container'>
+      <h2>Data List</h2>
+      <ul>
+        {data.map(item => (
+          <li key={item.id}>
+            <div>Name: {item.name}</div>
+            <div>Age: {item.age}</div>
+          </li>
+        ))}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Courses
+export default Courses;

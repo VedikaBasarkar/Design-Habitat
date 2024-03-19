@@ -25,12 +25,12 @@ body {
 }
 
 .brown-title-font{
-  /* color: #621A01; */
-  color: #ee6336;
+  color: #621A01;
+  /* color: #ee6336; */
   font-family: "Montserrat Alternates", san-serif;
   font-weight: 800;
   font-size: 48px;
-  text-shadow: 5px 5px #BA3D1434;
+  text-shadow: 5px 5px #621A0134;
 }
 
 .orange-title-font{
@@ -100,9 +100,14 @@ body {
     font-size: 24px;
     text-shadow: 3px 3px #FFE3D9;
   }
+  .brown-title-font{
+    font-size: 24px;
+  }
 }
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+
