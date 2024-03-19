@@ -25,9 +25,8 @@ body {
 }
 
 .brown-title-font{
-  /* color: #BA3D14; */
+  /* color: #621A01; */
   color: #ee6336;
-  /* color: #bf4017; */
   font-family: "Montserrat Alternates", san-serif;
   font-weight: 800;
   font-size: 48px;
@@ -35,7 +34,7 @@ body {
 }
 
 .orange-title-font{
-  color: #FB7C51;
+  color: #ee6336;
   font-family: "Montserrat Alternates", san-serif;
   font-weight: 800;
   font-size: 48px;
@@ -47,10 +46,24 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   padding: 5vh 0 10vh 0;
-  /* height: 90vh; */
-  /* padding-bottom: 40%; */
 }
 
+.about-bg{
+  background-image: url("https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: 90vw auto;
+  /* background-attachment: fixed; */
+  background-position: center top;
+}
+.about-bg-1{
+  background-image: url("https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/about-bg-3.svg");
+  background-repeat: no-repeat;
+  background-size: 90vw auto;
+  background-position: center top;
+}
+/* .team-profile{
+  height: 80px;
+} */
 .buttonCSS{
   padding: 10px 30px;
   border-radius: 30px;
@@ -75,7 +88,19 @@ body {
 .textarea::placeholder {
   color: #6219013d;
 }
-
+.avatar-size{
+  height: 16rem;
+}
+@media only screen and (max-width: 768px) {
+  .avatar-size{
+    height: 10rem;
+  }
+  .orange-title-font{
+    /* font-weight: 800; */
+    font-size: 24px;
+    text-shadow: 3px 3px #FFE3D9;
+  }
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

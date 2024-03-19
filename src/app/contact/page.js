@@ -8,7 +8,7 @@ const Contact = () => {
           <div className='w-full md:w-1/2 pr-20'>
             <div className='brown-title-font'>We’d love to hear from you</div>
             <div className='py-2'>To reach to us, you can fill the form here, drop email or contact us on provided number</div>
-            <div className='text-lg font-bold pb-1'>info@thedesignhabitat.com </div>
+            <div className='text-lg font-bold pb-1 text-secondary-500'>info@thedesignhabitat.com </div>
             <div className='w-full flex flex-col md:flex-row font-medium pt-4'>
               <div className='w-full md:w-1/2 pr-4'>
                 <div className='text-lg font-bold pb-1'>Pune</div>
