@@ -46,9 +46,9 @@ const About = () => {
         <div className='text-4xl orange-title-font text-center py-4 lg:py-10'>About Design Habitat</div> 
         <img className="w-full" src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/first-about-section.png" />
         
-        <div className='md:about-bg'>
+        <div className='about-bg-section'>
         {/* second section */}
-          <div className='px-5 lg:px-40 pt-8 md:pt-20'>
+          <div className='px-5 lg:px-40 pt-8 md:pt-20 bg'>
             <div className='flex flex-wrap lg:flex-row w-full'>
               <div className='w-full lg:w-2/3 pr-2 lg:pr-32'>
                 <div className='orange-title-font mb-4'>Who we are</div>
@@ -84,13 +84,13 @@ const About = () => {
           </div>
 
           {/* fifth section */}
-          <div className='lg:px-24 lg:pt-10 flex justify-between'>
-            <img className='hidden lg:block h-40' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/down-arrow-1.png"/>
+          <div className='lg:px-24 lg:pt-10 flex justify-between '>
+            <img className='hidden lg:block h-40 bg-white' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/down-arrow-1.png"/>
             <div className='orange-title-font lg:mt-10 container'>Our team</div>
           </div>
         </div>
 
-        <div className='lg:about-bg-1'>
+        <div className='md:about-bg-1 bg-white'>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-4 lg:my-0 lg:gap-6 pb-20 mx-5 lg:mx-28'>
             {/* <div className='w-1/3'> */}
             {data.map(item => (

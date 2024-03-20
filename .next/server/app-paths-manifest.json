@@ -1,6 +1,8 @@
 {
-  "/courses/page": "app/courses/page.js",
-  "/about/page": "app/about/page.js",
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/courses/advanced-UX-design-program/page": "app/courses/advanced-UX-design-program/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
+  "/courses/figma-masterclass/page": "app/courses/figma-masterclass/page.js",
+  "/courses/fundamentals-of-UX-design-program/page": "app/courses/fundamentals-of-UX-design-program/page.js"
 }
