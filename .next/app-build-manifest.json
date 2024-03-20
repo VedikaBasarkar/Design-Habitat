@@ -11,39 +11,6 @@
       "static/chunks/main-app.js",
       "static/css/app/courses/fundamentals-of-UX-design-program/page.css",
       "static/chunks/app/courses/fundamentals-of-UX-design-program/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/courses/figma-masterclass/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/courses/figma-masterclass/page.css",
-      "static/chunks/app/courses/figma-masterclass/page.js"
-    ],
-    "/courses/advanced-UX-design-program/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/courses/advanced-UX-design-program/page.css",
-      "static/chunks/app/courses/advanced-UX-design-program/page.js"
-    ],
-    "/courses/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/courses/page.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contact/page.css",
-      "static/chunks/app/contact/page.js"
     ]
   }
 }

@@ -4,6 +4,56 @@ import React, { useState } from 'react';
 import '../../../app/globals.css'
 
 const AdvancedUXDesignProgram = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    contact: '',
+    city:'',
+    surname: '',
+    org:'',
+    dob:''
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleRegistry = (e) => {
+    e.preventDefault();
+    const errors = validateForm(formData);
+    if (Object.keys(errors).length === 0) {
+      // Form is valid, you can submit it here or perform any action
+      console.log('Form submitted:', formData);
+    } else {
+      setErrors(errors);
+    }
+  };
+
+  const validateForm = (formData) => {
+    let errors = {};
+    if (!formData.name.trim()) {
+      errors.name = 'Name is required';
+    }
+    if (!formData.email.trim()) {
+      errors.email = 'Email is required';
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      errors.email = 'Email is invalid';
+    }
+    if (!formData.contact.trim()) {
+      errors.contact = 'Contact is required';
+    }
+    if (!formData.org.trim()) {
+      errors.org = 'Contact is required';
+    }
+    return errors;
+  };
+
   const [courseObj, setCouraseObj] = useState(false);
 
   const handleObject = () => {
@@ -29,6 +79,10 @@ const AdvancedUXDesignProgram = () => {
     setCouraseRelevance(!courseRelevance);
   };
 
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className='w-full flex flex-col px-6 lg:px-0'>
       <div className='w-full px-4 lg:px-20 rounded-mobBigBox lg:rounded-bigBox z-0'> 
@@ -43,7 +97,7 @@ const AdvancedUXDesignProgram = () => {
             <div className='bg-primary-500 rounded-r-md py-1 pl-20 pr-4 text-secondary-900 font-medium items-center'>Starts on: 1 May 2024</div>
             <div className='mx-4 font-medium text-lg items-center'>Duration: 7 Months</div>
           </div>
-          <button className='buttonCSS'><div className='flex flex-row items-center'><div>Register</div> <img className='pl-2 h-4' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/arrow.svg" /></div></button>
+          <button className='buttonCSS' onClick={toggleModal}><div className='flex flex-row items-center'><div>Register</div> <img className='pl-2 h-4' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/arrow.svg" /></div></button>
         </div>
       </div>
 
@@ -338,11 +392,104 @@ const AdvancedUXDesignProgram = () => {
               <div className='font-bold text-xl'>3 Months</div>
               <p className='pt-4'>Mode of Course</p>
               <div className='font-bold text-xl'>Online</div>
+              <button className='buttonCSS pt-4'  onClick={toggleModal}><div className='flex flex-row items-center'><div>Register</div> <img className='pl-2 h-4' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/arrow.svg" /></div></button>
             </div>
           </div>
           </div>
         </div>
       </div>
+
+
+      
+      {isOpen && (
+        <div className="modal-overlay">
+          <div className="modal">
+            <div className='flex flex-row justify-between w-full'>
+              <div className='text-secondary-800 text-xl font-bold pb-2'>Register Here</div>
+              <div>
+                <button className="close-btn" onClick={ onClick={toggleModal}}>X</button>
+              </div>
+            </div>
+            <div>
+              <form className="grid grid-cols-1 md:grid-cols-2 lg:my-0 lg:gap-2" onSubmit={handleRegistry}>
+                <div>
+                  <label>Name</label>
+                  <input
+                    className="block w-full textarea text-sm pb-10"
+                    type="text"
+                    name="name"
+                    placeholder="Enter your name"
+                    value={formData.name}
+                    onChange={handleChange}
+                  />
+                  {errors.name && <span>{errors.name}</span>}
+                </div>
+                <div>
+                  <label>Surname</label>
+                  <input
+                    className="block w-full textarea text-sm pb-10"
+                    type="text"
+                    name="Surname"
+                    placeholder="Enter your Surname"
+                    value={formData.surname}
+                    onChange={handleChange}
+                  />
+                  {errors.surname && <span>{errors.surname}</span>}
+                </div>
+                <div>
+                  <label>Email</label>
+                  <input
+                    className="block w-full textarea text-sm pb-10"
+                    placeholder="Enter email address"
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                  />
+                  {errors.email && <span>{errors.email}</span>}
+                </div>
+                <div>
+                  <label>Contact</label>
+                  <input
+                    className="block w-full textarea text-sm"
+                    type="text"
+                    name="contact"
+                    value={formData.contact}
+                    onChange={handleChange}
+                    placeholder="Enter contact number"
+                  />
+                  {errors.contact && <span>{errors.contact}</span>}
+                </div>
+                <div>
+                  <label>Organization/College Name </label>
+                  <input
+                    className="block w-full textarea text-sm pb-10"
+                    placeholder="Enter Organization/College Name"
+                    type="text"
+                    name="org"
+                    value={formData.org}
+                    onChange={handleChange}
+                  />
+                  {errors.org && <span>{errors.org}</span>}
+                </div>
+                <div>
+                  <label>Date of Birth</label>
+                  <input
+                    className="block w-full textarea text-sm pb-10"
+                    placeholder="Enter Date of Birth"
+                    type="date"
+                    name="dob"
+                    value={formData.dob}
+                    onChange={handleChange}
+                  />
+                  {errors.dob && <span>{errors.dob}</span>}
+                </div>
+                <button type="submit" className='bg-secondary-500 text-white font-mont rounded-full py-4 w-40'>Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      )}
 
     </div>
   );

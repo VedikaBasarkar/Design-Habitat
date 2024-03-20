@@ -41,7 +41,7 @@ const Footer = () => {
           <div className='my-4 md:mt-16'>Copyright © 2024 Design Habitat. All rights reserved.</div>
         </div>
         <div className='w-full md:w-1/5'>
-          <img className="h-48 md:h-50 bottom-0 mb-0" src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/illustration-2.svg" />
+          <img className="h-48 md:h-80 bottom-0 mb-0" src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/illustration-2.svg" />
         </div>
       </div>
     </div>
