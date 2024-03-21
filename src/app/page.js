@@ -1,6 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation';
+import Carousel from '../components/carousel'
 import Image from "next/image";
 import "./globals.css";
 
@@ -39,17 +40,13 @@ const data = [
 export default function Home() {
   const router = useRouter();
 
-  // const handleRedirect = (path) => {
-  //   history.push(path);
-  // }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-2 lg:p-24 text-orange-600">
-      <div></div>
-
+    <main className="p-2 pb-10 md:px-16 lg:px-24 text-orange-600">
+      <Carousel />
       {/* courses section */}
       <div className='my-4 md:my-20'>
         <div className='orange-title-font mb-10 text-center'>Our Upcoming Course</div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
         {data.map(item => (
                 <div key={item.id} className='text-center w-full justify-center'>
                   <div className='w-full flex justify-center'>
@@ -61,9 +58,9 @@ export default function Home() {
                   <div className='w-full flex justify-center -mt-10'>
                     <div className='bg-primary-400 px-6 py-2 font-medium text-lg w-fit rounded-full shadow-md'>{item.name}</div>
                   </div>
-                  <div className="shadow-md p-4 md:px-8 md:py-2 text-center rounded-mobBigBox bg-primary-50">
-                    <div className='text-xl pb-2 text-secondary-500 font-bold'>{item.courseName}</div>
-                    <div className='h-24 text-left px-2'>{item.oneLine}</div>
+                  <div className="shadow-md p-4 lg:px-8 lg:py-2 text-center rounded-mobBigBox bg-primary-50">
+                    <div className='text-xl pb-2 text-secondary-500 font-bold pt-2 '>{item.courseName}</div>
+                    <div className='h-auto md:h-40 xl:h-24 text-left px-2'>{item.oneLine}</div>
                     <div className='font-bold'>{item.startDate}</div>
                     <button onClick={() => router.push(item.url)} className="my-2 rounded-full bg-secondary-500 text-white py-2 px-6">Check Details</button>
                   </div>

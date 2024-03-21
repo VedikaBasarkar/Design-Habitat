@@ -86,8 +86,8 @@ const FigmaMasterclass = () => {
 
   return (
     <div className='w-full flex flex-col px-6 lg:px-0'>
-      <div className='w-full px-4 lg:px-20 rounded-mobBigBox lg:rounded-bigBox z-0'> 
-        <img className='h-vh' src='https://design-habitat.nyc3.cdn.digitaloceanspaces.com/banners/Rectangle%20346.png' />
+      <div className='w-full px-4 lg:px-28 z-0'> 
+        <img className='h-vh rounded-b-mobBigBox lg:rounded-b-bigBox' src='https://design-habitat.nyc3.cdn.digitaloceanspaces.com/banners/banner-ssaj.png' />
       </div>
       
       <div className='mt-10 hidden lg:block border border-y-4 border-r-4 border-dashed border-primary-300 rounded-r-mobBigBox shadow-lg pr-10 py-8 w-fit z-50 bg-white text-secondary-500 '>

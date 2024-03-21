@@ -248,6 +248,75 @@ body {
   color: #000;
 }
 
+/* carousel style */
+.carousel {
+  position: relative;
+  max-height: 80vh;
+  max-width: 80vw; /* Set the maximum width of the carousel */
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-dots {
+  text-align: center;
+  /* margin-top: 10px; */
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #FFF5DE;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #F9B81A;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff5de5f;
+  border: none;
+  color: #F9B81A;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 3px 12px;
+  border-radius: 20px;
+}
+
+.prev {
+  left: 10px;
+  z-index: 99;
+}
+
+.next {
+  right: 10px;
+  z-index: 99;
+}
 /* Media Query for Mobile */
 @media screen and (max-width: 768px) {
   .menu-toggle {
@@ -284,5 +353,21 @@ body {
   .modal {
     width: 90vw;
   }
-
+  .carousel {
+    max-height: 95vh;
+    max-width: 95vw; /* Set the maximum width of the carousel */
+    border-radius: 0px;
+  }
+  .dot{
+    width: 6px;
+    height: 6px;
+  }
+  .prev, .next {
+    display: none;
+    padding: 0px 9px;
+    border-radius: 20px;
+  }
+  .mode-badge{
+    transform: translate(40vw, -40px);
+  }
 }

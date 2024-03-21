@@ -1,8 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/courses/fundamentals-of-UX-design-program/page": "app/courses/fundamentals-of-UX-design-program/page.js",
-  "/courses/[courseSlug]/page": "app/courses/[courseSlug]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/about/page": "app/about/page.js",
-  "/courses/advanced-UX-design-program/page": "app/courses/advanced-UX-design-program/page.js"
+  "/page": "app/page.js"
 }

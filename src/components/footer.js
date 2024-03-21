@@ -18,6 +18,7 @@ const Footer = () => {
                 <div className='text-lg font-bold pb-1'>Pune</div>
                 <div className='py-1 md:pr-10'>6120/6130 6th floor Marvel Fuego, Magarpatta road,opposite to Seasons Mall, Hadapsar, Pune 411028</div>
                 <div className=' pb-4 md:py-1 md:pr-10'>+91 788 803 3033</div>
+                <div className='text-lg font-medium pb-1 '>info@thedesignhabitat.com </div>
               </div>
             </div>
             <div className='w-full lg:w-2/5'>
@@ -31,7 +32,7 @@ const Footer = () => {
               <div className='text-xl font-bold md:pb-1'>Quick Links</div>
               <div className='flex flex-col'>
                 <Link className="md:py-1 hover:text-secondary-500" href="/about">About us</Link>
-                <Link className="md:py-1 hover:text-secondary-500" href="/courses">Courses</Link>
+                {/* <Link className="md:py-1 hover:text-secondary-500" href="/courses">Courses</Link> */}
                 <Link className="md:py-1 hover:text-secondary-500" href="/contact">Contact us</Link>
                 <Link className="md:py-1 hover:text-secondary-500" href="/terms-and-conditions">Terms & Conditions</Link>
                 <Link className="md:py-1 hover:text-secondary-500" href="/privacy">Privacy Policy</Link>

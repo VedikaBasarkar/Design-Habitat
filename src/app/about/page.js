@@ -30,9 +30,9 @@ const About = () => {
     },
     {
       "id": 5,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-3.png",
-      "name": "Neha Raut",
-      "profile": "Mentor"
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/vijay.jpg",
+      "name": "Vijay Shinde",
+      "profile": "Expert in UX Design & research"
     },
     {
       "id": 6,
@@ -45,6 +45,20 @@ const About = () => {
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-5.png",
       "name": "Suvodeep Mishra",
       "profile": "Mentor"
+    },
+    {
+      "id": 8,
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-3.png",
+      "name": "Neha Raut",
+      "profile": "Industry Expert"
+      
+    },
+    {
+      "id": 9,
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Vedika.jpg",
+      "name": "Vedika Basarkar",
+      "profile": "Industry Expert"
+      
     }
   ];  
   return (
