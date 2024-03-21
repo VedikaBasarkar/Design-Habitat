@@ -6,11 +6,39 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
     "/courses/fundamentals-of-UX-design-program/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/courses/fundamentals-of-UX-design-program/page.css",
       "static/chunks/app/courses/fundamentals-of-UX-design-program/page.js"
+    ],
+    "/courses/[courseSlug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/courses/[courseSlug]/page.js"
+    ],
+    "/courses/advanced-UX-design-program/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/courses/advanced-UX-design-program/page.css",
+      "static/chunks/app/courses/advanced-UX-design-program/page.js"
+    ],
+    "/courses/figma-masterclass/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/courses/figma-masterclass/page.css",
+      "static/chunks/app/courses/figma-masterclass/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
     ]
   }
 }

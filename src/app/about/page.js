@@ -12,30 +12,36 @@ const About = () => {
     },
     {
       "id": 2,
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/vinayak-kulkarni.jpg",
+      "name": "Vinayak Kulkarni",
+      "profile": "Co-founder & Mentor"      
+    },
+    {
+      "id": 3,
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-1.png",
       "name": "Aditya Wadher",
       "profile": "Mentor"
     },
     {
-      "id": 3,
+      "id": 4,
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-2.png",
       "name": "Rushab Kataria",
       "profile": "Mentor"
     },
     {
-      "id": 4,
+      "id": 5,
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-3.png",
       "name": "Neha Raut",
       "profile": "Mentor"
     },
     {
-      "id": 5,
+      "id": 6,
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect.png",
       "name": "Suraj Asawa",
       "profile": "Mentor"
     },
     {
-      "id": 6,
+      "id": 7,
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-5.png",
       "name": "Suvodeep Mishra",
       "profile": "Mentor"

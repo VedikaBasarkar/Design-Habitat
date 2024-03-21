@@ -40,7 +40,9 @@ body {
   font-size: 48px;
   text-shadow: 5px 5px #FFE3D9;
 }
-
+.mode-badge{
+  transform: translate(70px,-60px);
+}
 .contact-page{
   /* background-image: url("https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/background-contact.svg"); */
   background-repeat: no-repeat;

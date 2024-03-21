@@ -27,7 +27,7 @@ package-lock.json
 
 /dist
 /.next
-
+.next
 # Editor directories and files
 .idea
 .vscode

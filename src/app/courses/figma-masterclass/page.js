@@ -79,6 +79,7 @@ const FigmaMasterclass = () => {
     setCouraseRelevance(!courseRelevance);
   };
 
+  const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => {
     setIsOpen(!isOpen);
   };
