@@ -21,9 +21,6 @@ const Footer = () => {
         <div className='w-full md:w-2/5 py-4'>
           <div className='text-xl font-bold pb-2'>Quick Links</div>
           <div className='flex flex-col'>
-            <Link className="py-1 hover:text-white" href="/about">About us</Link>
-            <Link className="py-1 hover:text-white" href="/courses">Courses</Link>
-            <Link className="py-1 hover:text-white" href="/contact">Contact us</Link>
             <Link className="py-1 hover:text-white" href="/terms-and-conditions">Terms & Conditions</Link>
             <Link className="py-1 hover:text-white" href="/privacy">Privacy Policy</Link>
           </div>
