@@ -31,9 +31,9 @@ const Footer = () => {
             <div className='w-full lg:w-1/5'>
               <div className='text-xl font-bold md:pb-1'>Quick Links</div>
               <div className='flex flex-col'>
-                <Link className="md:py-1 hover:text-secondary-500" href="/about">About us</Link>
+                {/* <Link className="md:py-1 hover:text-secondary-500" href="/about">About us</Link> */}
                 {/* <Link className="md:py-1 hover:text-secondary-500" href="/courses">Courses</Link> */}
-                <Link className="md:py-1 hover:text-secondary-500" href="/contact">Contact us</Link>
+                {/* <Link className="md:py-1 hover:text-secondary-500" href="/contact">Contact us</Link> */}
                 <Link className="md:py-1 hover:text-secondary-500" href="/terms-and-conditions">Terms & Conditions</Link>
                 <Link className="md:py-1 hover:text-secondary-500" href="/privacy">Privacy Policy</Link>
               </div>
