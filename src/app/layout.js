@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Design Habita",
+  title: "Design Habitat",
   description: "Design Habitat is Design education firm",
 };
 
