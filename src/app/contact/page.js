@@ -4,9 +4,12 @@ import React, { useState } from 'react'
 import '../../app/globals.css'
 
 const Contact = () => {
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwxrr9gY3hHl86SuG0uv8nQa0NJHnmqFYqzCzrqM0w4wWDuE-B--j9r9iwch5FHZK6o/exec' 
+  
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
+    email: '', 
     contact: '',
     city:'',
     message: '',
@@ -26,8 +29,12 @@ const Contact = () => {
     e.preventDefault();
     const errors = validateForm(formData);
     if (Object.keys(errors).length === 0) {
-      // Form is valid, you can submit it here or perform any action
       console.log('Form submitted:', formData);
+      fetch(scriptURL, { method: 'POST', body: new FormData(formData)})
+      .then(response => alert("Thank you! your form is submitted successfully." ))
+      .then(() => { window.location.reload(); })
+      .catch(error => console.error('Error!', error.message))
+      
     } else {
       setErrors(errors);
     }
@@ -76,7 +83,11 @@ const Contact = () => {
           </div>
           <div className='w-full lg:w-1/2'>
             <div className="px-5 py-8 md:py-4">
-            <form onSubmit={handleSubmit}>
+            <form 
+            action='https://script.google.com/macros/s/AKfycbw34kHB3aO8XmuR9ZPdjtyGbUFIoGZVAEXiTY0LHbJjEFdfhtVCgq5LNG9H_NHiZTri/exec'
+            onSubmit={handleSubmit} 
+            method='post' 
+            name='contact-form-data'>
               <div>
                 <label>Name</label>
                 <input
@@ -87,7 +98,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                 />
-                {errors.name && <span>{errors.name}</span>}
+                {errors.name && <span className='font-xs text-red-400'>{errors.name}</span>}
               </div>
               <div>
                 <label>Email</label>
@@ -99,7 +110,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                 />
-                {errors.email && <span>{errors.email}</span>}
+                {errors.email && <span className='font-xs text-red-400'>{errors.email}</span>}
               </div>
               <div>
                 <label>Contact</label>
@@ -111,7 +122,7 @@ const Contact = () => {
                   onChange={handleChange}
                   placeholder="Enter contact number"
                 />
-                {errors.contact && <span>{errors.contact}</span>}
+                {errors.contact && <span className='font-xs text-red-400'>{errors.contact}</span>}
               </div>
               <div>
                 <label>City</label>
@@ -123,7 +134,7 @@ const Contact = () => {
                   onChange={handleChange}
                   placeholder="Enter city"
                 />
-                {errors.city && <span>{errors.city}</span>}
+                {errors.city && <span className='font-xs text-red-400'>{errors.city}</span>}
               </div>
               <div>
                 <label>Message</label>

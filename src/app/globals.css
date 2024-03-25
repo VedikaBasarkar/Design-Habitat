@@ -41,7 +41,7 @@ body {
   text-shadow: 5px 5px #FFE3D9;
 }
 .mode-badge{
-  transform: translate(70px,-60px);
+  transform: translate(10px,-50px);
 }
 .contact-page{
   /* background-image: url("https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/background-contact.svg"); */
@@ -190,7 +190,7 @@ body {
   flex-direction: column;
   width: 100%;
   position: absolute;
-  top: 90px;
+  top: 80px;
   left: 0;
   text-align: center;
   overflow: hidden;
@@ -282,6 +282,7 @@ body {
 }
 
 .dot {
+  margin-top:10px;
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -310,12 +311,12 @@ body {
 
 .prev {
   left: 10px;
-  z-index: 99;
+  z-index: 20;
 }
 
 .next {
   right: 10px;
-  z-index: 99;
+  z-index: 20;
 }
 /* Media Query for Mobile */
 @media screen and (max-width: 768px) {
@@ -327,7 +328,7 @@ body {
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 0;
     background-color: #FFF5DE;
     text-align: center;
@@ -338,6 +339,7 @@ body {
 
   .menu.open {
     max-height: 200px;
+    z-index: 40;
   }
 
   .menu.open li {
@@ -345,7 +347,7 @@ body {
   }
 
   .menu.open a {
-    display: block;
+    /* display: block; */
     padding: 15px 0;
     text-decoration: none;
     transition: background-color 0.3s;
@@ -368,6 +370,6 @@ body {
     border-radius: 20px;
   }
   .mode-badge{
-    transform: translate(40vw, -40px);
+    /* transform: translate(40vw, -40px); */
   }
 }

@@ -98,7 +98,7 @@ const FundamentalOfUXDesignProgram = () => {
         <div className='flex flex-row mt-4 items-center h-fit justify-between'>
           <div className='flex'>
             <div className='bg-primary-500 rounded-r-md py-1 pl-20 pr-4 text-secondary-900 font-medium items-center'>Starts on: 1 May 2024</div>
-            <div className='mx-4 font-medium text-lg items-center'>Duration: 4 Months</div>
+            <div className='mx-4 font-medium text-lg items-center'>Duration: 3 Months</div>
           </div>
           <button className='buttonCSS'  onClick={toggleModal}><div className='flex flex-row items-center'><div>Register</div> <img className='pl-2 h-4' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/arrow.svg" /></div></button>
         </div>
@@ -110,7 +110,7 @@ const FundamentalOfUXDesignProgram = () => {
         <div className='text-2xl font-mont font-semibold text-center'>Fundamentals Of UX Design Program</div>
         <p className='text-secondary-800 text-center py-2'>by <span className='text-xl '>Mr. Rushab Kataria, Microsoft</span></p>
         <p className='rounded-md px-6 font-medium text-center'>Starts on: 1 May 2024</p>
-        <div className='text-center'>Duration: 4 Months</div>
+        <div className='text-center'>Duration: 3 Months</div>
       </div>
       
       <div className="mt-10 w-full">
@@ -194,7 +194,7 @@ const FundamentalOfUXDesignProgram = () => {
             <div className={`bg-white ${courseHighlight ? 'expanded' : 'hidden'}  py-4`}>
               <ul className='font-normal'> 
                 <li>1. Expert Instruction: Learn from an industry professional with extensive experience and expertise in UX design, providing valuable insights and practical knowledge.</li>
-                <li>2. ndustry relevant Curriculum: Dive deep into concepts and methodologies essential for succeeding in the competitive field of UX design within the industry.</li>
+                <li>2. Industry relevant Curriculum: Dive deep into concepts and methodologies essential for succeeding in the competitive field of UX design within the industry.</li>
                 <li>3. Hands-on Learning: Engage in interactive workshops, group projects, and case studies to apply learned concepts in real-world scenarios, fostering practical skills and experience.</li>
                 <li>4. Industry-Relevant Content: Stay updated with the latest trends, technologies, and best practices shaping the UX design landscape within the industry.</li>
                 <li>5. Networking Opportunities: Connect with fellow participants, industry experts, and guest speakers through collaborative projects, expert panels, and interactive sessions, expanding your professional network.</li>
@@ -323,7 +323,7 @@ const FundamentalOfUXDesignProgram = () => {
               <p className='pt-4'>Start date</p>
               <div className='font-bold text-xl'>1st May 2024</div>
               <p className='pt-4'>Course Duration</p>
-              <div className='font-bold text-xl'>4 Months</div>
+              <div className='font-bold text-xl'>3 Months</div>
               <p className='pt-4'>Mode of Course</p>
               <div className='font-bold text-xl'>Online</div>
               <button className='buttonCSS pt-4'  onClick={toggleModal}><div className='flex flex-row items-center'><div>Register</div> <img className='pl-2 h-4' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/arrow.svg" /></div></button>

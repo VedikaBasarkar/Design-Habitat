@@ -97,7 +97,7 @@ const AdvancedUXDesignProgram = () => {
         <div className='flex flex-row mt-4 items-center h-fit justify-between'>
           <div className='flex'>
             <div className='bg-primary-500 rounded-r-md py-1 pl-20 pr-4 text-secondary-900 font-medium items-center'>Starts on: 1 May 2024</div>
-            <div className='mx-4 font-medium text-lg items-center'>Duration: 7 Months</div>
+            <div className='mx-4 font-medium text-lg items-center'>Duration: 6 Months</div>
           </div>
           <button className='buttonCSS' onClick={toggleModal}><div className='flex flex-row items-center'><div>Register</div> <img className='pl-2 h-4' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/arrow.svg" /></div></button>
         </div>
@@ -109,14 +109,14 @@ const AdvancedUXDesignProgram = () => {
         <div className='text-2xl font-mont font-semibold text-center'>Advanced UX Design program</div>
         <p className='text-secondary-800 text-center py-2'>by <span className='text-xl '>Mr. Aditya, Thoughtspot</span></p>
         <p className='rounded-md px-6 font-medium text-center'>Starts on: 1 May 2024</p>
-        <div className='text-center'>Duration: 7 Months</div>
+        <div className='text-center'>Duration: 6 Months</div>
       </div>
       
       <div className="mt-10 w-full">
         <div className='px-2 md:px-20 flex flex-col-reverse md:flex-row w-full'>
           <div className='w-full lg:w-2/3 pr-4 lg:pr-10'>
           <div className='text-xl font-medium font-mont pt-10 lg:pt-0 md:pb-1'>Description</div>
-          <div>EThe Advanced UX Design course is a comprehensive six-month program designed to equip
+          <div>The Advanced UX Design course is a comprehensive six-month program designed to equip
                 participants with advanced skills and knowledge in user experience (UX) design. This online
                 course offers a flexible learning environment, enabling students to study at their own pace
                 while benefiting from expert guidance and practical projects.</div>
@@ -387,7 +387,7 @@ const AdvancedUXDesignProgram = () => {
             <div className='pl-10 border-dashed border-r-4 border-r-primary-300' />
             <div className='p-8'>
               <p className=''>Fees for this course</p>
-              <div className='font-bold text-xl'>₹60,000</div>
+              <div className='font-bold text-xl'>₹90,000</div>
               <p className='pt-4'>Start date</p>
               <div className='font-bold text-xl'>1st May 2024</div>
               <p className='pt-4'>Course Duration</p>

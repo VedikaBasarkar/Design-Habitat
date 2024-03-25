@@ -34,7 +34,7 @@ const Carousel = () => {
       useEffect(() => {
         const intervalId = setInterval(() => {
           setCurrentImageIndex(prevIndex => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-        }, 5000); // Change slide every 5 seconds
+        }, 7000); // Change slide every 7 seconds
     
         return () => clearInterval(intervalId);
       }, [images]);

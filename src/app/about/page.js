@@ -6,58 +6,72 @@ const About = () => {
   const data = [
     {
       "id": 1,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-6.png",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/pranali-bg-bw.jpg",
       "name": "Pranali Bankar",
       "profile": "Cofounder & Mentor"
     },
     {
       "id": 2,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/vinayak-kulkarni.jpg",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/kulkarni-bg-bw.jpg",
       "name": "Vinayak Kulkarni",
       "profile": "Co-founder & Mentor"      
     },
     {
       "id": 3,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-1.png",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/aditya-bg-bw.jpg",
       "name": "Aditya Wadher",
       "profile": "Mentor"
     },
     {
       "id": 4,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-2.png",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/rushab-bg-bw.jpg",
       "name": "Rushab Kataria",
       "profile": "Mentor"
     },
     {
       "id": 5,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/vijay.jpg",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/Vijay-shinde-bg-bw.jpg",
       "name": "Vijay Shinde",
-      "profile": "Expert in UX Design & research"
+      "profile": "Mentor"
     },
     {
       "id": 6,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect.png",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/Suraj-bg-bw.jpg",
       "name": "Suraj Asawa",
       "profile": "Mentor"
     },
     {
       "id": 7,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-5.png",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/suvodeep-bg-bw.jpg",
       "name": "Suvodeep Mishra",
-      "profile": "Mentor"
+      "profile": "Expert in UX Design & research"
     },
     {
       "id": 8,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Intersect-3.png",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/neha-bg-bw.jpg",
       "name": "Neha Raut",
       "profile": "Industry Expert"
       
     },
     {
       "id": 9,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Vedika.jpg",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/vedika-bg-bw.jpg",
       "name": "Vedika Basarkar",
       "profile": "Industry Expert"
+      
+    },
+    {
+      "id": 10,
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/anisha-bg-bw.jpg",
+      "name": "Anisha Thakkar",
+      "profile": "Industry Expert"
+      
+    },
+    {
+      "id": 11,
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/Vector.jpg",
+      "name": "NA Basarkar",
+      "profile": "Mentor "
       
     }
   ];  

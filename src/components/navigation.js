@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="font-mont text-secondary-800">
+    <nav className="font-mont text-secondary-800 z-30">
       <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-4">
         <div className="w-full flex justify-between pb-0 navbar-brand">
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">

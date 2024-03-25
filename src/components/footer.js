@@ -24,7 +24,7 @@ const Footer = () => {
             <div className='w-full lg:w-2/5'>
               <div className='flex flex-col'>
                 <div className='text-lg font-bold pb-1'>Nashik</div>
-                <div className='py-1 md:pr-10'>4th floor, Babubhai House, Above HDFC Bank, Near Kulkarni Garden, Sharanpur Road, Nashik - 422002</div>
+                <div className='py-1 md:pr-10'>4th floor, Babubhai House, Above HDFC Bank, Near Kulkarni Garden, Sharanpur Road, Nashik - 422005</div>
                 <div className='pb-4 md:py-1 md:pr-10'>+91 776 803 3033</div>
               </div>
             </div>
