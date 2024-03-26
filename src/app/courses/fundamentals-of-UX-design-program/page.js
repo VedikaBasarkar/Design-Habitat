@@ -319,7 +319,7 @@ const FundamentalOfUXDesignProgram = () => {
             <div className='pl-10 border-dashed border-r-4 border-r-primary-300' />
             <div className='p-8'>
               <p className=''>Fees for this course</p>
-              <div className='font-bold text-xl'>₹60,000</div>
+              <div className='font-bold text-xl'>₹60,000 + GST</div>
               <p className='pt-4'>Start date</p>
               <div className='font-bold text-xl'>1st May 2024</div>
               <p className='pt-4'>Course Duration</p>

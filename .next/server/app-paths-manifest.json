@@ -1,4 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/courses/design-dojo/page": "app/courses/design-dojo/page.js"
+  "/about/page": "app/about/page.js",
+  "/page": "app/page.js"
 }

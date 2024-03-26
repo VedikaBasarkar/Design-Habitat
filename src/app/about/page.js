@@ -18,7 +18,7 @@ const About = () => {
     },
     {
       "id": 3,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/aditya-bg-bw.jpg",
+      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/Vector.jpg",
       "name": "Aditya Wadher",
       "profile": "Mentor"
     },
@@ -65,14 +65,6 @@ const About = () => {
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/anisha-bg-bw.jpg",
       "name": "Anisha Thakkar",
       "profile": "Industry Expert"
-      
-    },
-    {
-      "id": 11,
-      "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/Vector.jpg",
-      "name": "NA Basarkar",
-      "profile": "Mentor "
-      
     }
   ];  
   return (

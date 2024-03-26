@@ -41,7 +41,7 @@ const data = [
 const offLine = [
   {
     "id": 1,
-    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Rushab.jpg",
+    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/course%20icon-02.jpg",
     "courseName":"Design Launchpad",
     "mode":"Preparatory Courses",
     "duration":"2 Years",
@@ -50,7 +50,7 @@ const offLine = [
   },
   {
     "id": 2,
-    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Rushab.jpg",
+    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/course%20icon-01.jpg",
     "courseName":"Design Dojo",
     "mode":"Preparatory Courses",
     "duration":"1 Year",
@@ -59,7 +59,7 @@ const offLine = [
   },
   {
     "id": 3,
-    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Rushab.jpg",
+    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/course%20icon-03.jpg",
     "courseName":"Design Master",
     "mode":"Preparatory Courses",
     "duration":"1 Year",
