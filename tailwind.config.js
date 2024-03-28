@@ -41,9 +41,6 @@ module.exports = {
       purple: colors.purple,
       violet: colors.violet,
       green: colors.emerald,
-      coolGray: colors.coolGray,
-      blueGray: colors.blueGray,
-      trueGray: colors.trueGray,
       gray: colors.gray,
       lime: colors.lime,
       rose: colors.rose,
@@ -59,6 +56,15 @@ module.exports = {
       'full': '9999px',
       'mobBigBox':'3rem',
       'bigBox':'6rem'
+    },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
     },
     fontFamily: {
       'mont': ['Montserrat Alternates', 'san-serif'],
