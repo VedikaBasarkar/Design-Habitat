@@ -91,13 +91,14 @@ const DesignDojo = () => {
       <div className="mt-10 w-full">
         <div className='px-2 md:px-20 flex flex-col-reverse md:flex-row w-full'>
           <div className='w-full lg:w-2/3 pr-4 lg:pr-10'>
-          <div className='text-xl font-medium font-mont pt-10 lg:pt-0 md:pb-1'>Description</div>
+          <div className='text-xl font-medium font-mont pt-10 lg:pt-0 md:pb-1'>About Design Habitat</div>
             <div>The Design Habitat is established as centre for Design experience. It is a brainchild of professionals with vast experience in the field of Design and innovation. The core team of The Design Habitat comes from educational and teaching backgrounds from institutes of repute such as IIT, NID and MITID.<br />
             At The Design Habitat, we're all about unleashing the creative potential within you. The institution is a hub of inspiration, where passion meets skill. With our expert faculty mentors from top institutes and cutting-edge curriculum, we're committed to equipping you with the knowledge and practical experience needed to excel in the dynamic world of design. Join us on this exciting and vibrant journey of exploration, growth, and endless possibilities to let your creativity soar!<br />
             The Design Habitat aims to become the foundation for all the aspirants with a passion to create a successful career in the Design industry.</div>
 
             <hr className='border-primary-500 border-t-2 my-6' />
-            {/* Prerequisites */}
+            {/* Pedagogy */}
+          <div className='text-xl font-medium font-mont md:pb-1'>Pedagogy</div>
             <div>
             Learning at The Design Habitat lays a strong design foundation, ignites creativity, and equips aspirants with the skills and knowledge to navigate the dynamic world of design. <br />
             The curriculum delves deeper than just exam-specific skills. It encourages students to develop their creativity by providing design challenges and projects. This fosters problem-solving skills, a crucial asset for any successful designer. Techniques like brainstorming and mind mapping further strengthen their ability to think innovatively.<br />
@@ -138,7 +139,7 @@ const DesignDojo = () => {
               <p className='pt-4'>Mode of Course</p>
               <div className='font-bold text-xl'>Offline</div>
               <p className='pt-4'>Eligibility</p>
-              <div className='font-bold text-xl'>Learners who have completed grade 10th pursuing 11th & 12th from any stream</div>
+              <div className='font-bold text-xl'>learners who have completed Grade 11th</div>
               <button className='buttonCSS pt-4'  onClick={toggleModal}><div className='flex flex-row items-center'><div>Register</div> <img className='pl-2 h-4' src="https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/arrow.svg" /></div></button>
             </div>
           </div>

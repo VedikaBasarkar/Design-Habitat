@@ -1,17 +1,3 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/contact/page": "app/contact/page.js",
-  "/courses/[courseSlug]/page": "app/courses/[courseSlug]/page.js",
-  "/courses/advanced-UX-design-program/page": "app/courses/advanced-UX-design-program/page.js",
-  "/courses/design-master/page": "app/courses/design-master/page.js",
-  "/courses/design-launchpad/page": "app/courses/design-launchpad/page.js",
-  "/courses/design-dojo/page": "app/courses/design-dojo/page.js",
-  "/courses/fundamentals-of-UX-design-program/page": "app/courses/fundamentals-of-UX-design-program/page.js",
-  "/page": "app/page.js",
-  "/courses/figma-masterclass/page": "app/courses/figma-masterclass/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/privacy/page": "app/privacy/page.js",
-  "/terms-and-conditions/page": "app/terms-and-conditions/page.js",
-  "/about/page": "app/about/page.js",
-  "/courses/page": "app/courses/page.js"
+  "/page": "app/page.js"
 }

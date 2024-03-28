@@ -13,7 +13,7 @@ const data = [
     "courseName":"Fundamentals of UX Design",
     "mode":"online certification",
     "startDate":"1 May 2024",
-    "oneLine":'Master the essentials of UX design and craft intuitive digital experiences with our comprehensive online program',
+    "oneLine":'Master the essentials of UX design and craft intuitive digital experiences with our comprehensive online program.',
     "url":'/courses/fundamentals-of-UX-design-program'
   },
   {
@@ -23,7 +23,7 @@ const data = [
     "courseName":"Figma Masterclass",
     "mode":"online certification",
     "startDate":"1 May 2024",
-    "oneLine":'Unlock the full potential of Figma and revolutionize your design workflow with our comprehensive online master class',
+    "oneLine":'Unlock the full potential of Figma and revolutionize your design workflow with our comprehensive online master class.',
     "url":'/courses/figma-masterclass'
   },
   {
@@ -33,7 +33,7 @@ const data = [
     "courseName":"Advanced UX Design",
     "mode":"online certification",
     "startDate":"1 May 2024",
-    "oneLine":'Elevate your UX design expertise to the next level with our advanced online program, exploring cutting-edge strategies and innovative techniques',
+    "oneLine":'Elevate your UX design expertise to the next level with our advanced online program, exploring strategies and innovative techniques.',
     "url":'/courses/advanced-UX-design-program'
   },
 ]; 
@@ -95,7 +95,7 @@ export default function Home() {
                   </div>
                   <div className="shadow-md p-4 lg:px-8 lg:py-2 text-center rounded-mobBigBox bg-primary-50">
                     <div className='text-xl pb-2 text-secondary-500 font-bold pt-2 '>{item.courseName}</div>
-                    <div className='h-auto md:h-40 xl:h-24 text-left px-2'>{item.oneLine}</div>
+                    <div className='h-auto md:h-44 lg:h-40 xl:h-24 text-left px-2'>{item.oneLine}</div>
                     <div className='font-bold'>{item.startDate}</div>
                     <button onClick={() => router.push(item.url)} className="my-2 rounded-full bg-secondary-500 text-white py-2 px-6">Check Details</button>
                   </div>
