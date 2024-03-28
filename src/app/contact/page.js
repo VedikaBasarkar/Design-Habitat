@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import HubspotForms from '@/components/hubspot-forms';
 import '../../app/globals.css'
 
 const Contact = () => {
@@ -75,7 +76,7 @@ const Contact = () => {
               </div>
               <div className='w-full md:w-1/2 pr-4'>
                 <div className='text-lg font-bold pb-1'>Nashik</div>
-                <div className='py-1'>4th floor, Babubhai House, Above HDFC Bank, Near Kulkarni Garden, Sharanpur Road, Nashik - 422002</div>
+                <div className='py-1'>4th floor, Babubhai House, Above HDFC Bank, Near Kulkarni Garden, Sharanpur Road, Nashik - 422005</div>
                 <div className='md:py-1 '>+91 776 803 3033</div>
               </div>
             </div>
@@ -83,7 +84,13 @@ const Contact = () => {
           </div>
           <div className='w-full lg:w-1/2'>
             <div className="px-5 py-8 md:py-4">
-            <form 
+            <HubspotForms 
+                region="na1"
+                portalId= "45699251"
+                formId= "496431e0-1cc5-4b15-b969-2399a8e47e9d"
+                />
+
+            {/* <form 
             action='https://script.google.com/macros/s/AKfycbw34kHB3aO8XmuR9ZPdjtyGbUFIoGZVAEXiTY0LHbJjEFdfhtVCgq5LNG9H_NHiZTri/exec'
             onSubmit={handleSubmit} 
             method='post' 
@@ -148,48 +155,6 @@ const Contact = () => {
                 {errors.message && <span>{errors.message}</span>}
               </div>
               <button type="submit" className='buttonCSS'>Submit</button>
-            </form>
-              {/* <form>
-              <div className=''>
-                <label for="name">Name</label>
-                <input
-                className="block w-full textarea text-sm pb-10"
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-                />
-              </div>
-              <div>
-                <label for="email">Email</label>
-                <input
-                className="block w-full textarea text-sm"
-                type="text"
-                name="email"
-                placeholder="Enter email address"
-                />
-                <span className="text-red-700 font-base text-xs mt-4"></span>
-              </div>
-              <div>
-                <label for="contact">Contact</label>
-                <input
-                className="block w-full textarea text-sm"
-                type="text"
-                name="contact"
-                placeholder="Enter contact number"
-                />
-                <span className="text-red-700 font-base text-xs mt-4"></span> 
-              </div>
-              <div>
-                <label for="message">Message</label>
-                <textarea 
-                className="block w-full textarea text-sm" 
-                name="postContent" 
-                rows={4} cols={40} />
-                <span className="text-red-700 font-base text-xs mt-4"></span> 
-              </div>
-              <div>
-              <button type="submit" className='buttonCSS'>Submit</button>
-              </div>
             </form> */}
             </div>
           </div>

@@ -8,7 +8,7 @@ import "./globals.css";
 const data = [
   {
     "id": 1,
-    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Rushab.jpg",
+    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/rushab-bg-bw.jpg",
     "name": "Rushab, Microsoft",
     "courseName":"Fundamentals of UX Design",
     "mode":"online certification",
@@ -18,7 +18,7 @@ const data = [
   },
   {
     "id": 2,
-    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/suraj.jpg",
+    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/Suraj-bg-bw.jpg",
     "name": "Suraj, Nutanix",
     "courseName":"Figma Masterclass",
     "mode":"online certification",
@@ -28,7 +28,7 @@ const data = [
   },
   {
     "id": 3,
-    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-profile/Aditya.jpg",
+    "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/Vector.jpg",
     "name": "Aditya, Thoughtspot",
     "courseName":"Advanced UX Design",
     "mode":"online certification",
@@ -43,7 +43,7 @@ const offLine = [
     "id": 1,
     "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/course%20icon-02.jpg",
     "courseName":"Design Launchpad",
-    "mode":"Preparatory Courses",
+    "mode":"Offline Courses",
     "duration":"2 Years",
     "oneLine":'An exhaustive 2-year Design preparation program offered to learners after completion of Grade 10.',
     "url":'/courses/design-launchpad'
@@ -52,7 +52,7 @@ const offLine = [
     "id": 2,
     "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/course%20icon-01.jpg",
     "courseName":"Design Dojo",
-    "mode":"Preparatory Courses",
+    "mode":"Offline Courses",
     "duration":"1 Year",
     "oneLine":'An exhaustive fast track 1-year Design preparation program offered to learners after completion of Grade 11.',
     "url":'/courses/design-dojo'
@@ -61,7 +61,7 @@ const offLine = [
     "id": 3,
     "img": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/illustrations/course%20icon-03.jpg",
     "courseName":"Design Master",
-    "mode":"Preparatory Courses",
+    "mode":"Offline Courses",
     "duration":"1 Year",
     "oneLine":'An exhaustive fast track 1-year Design preparation program offered to learners completing their final year of graduation or who have completed their graduation.',
     "url":'/courses/design-master'
@@ -79,7 +79,8 @@ export default function Home() {
       </div>
       {/* courses section */}
       <div className='my-4 md:my-40'>
-        <div className='orange-title-font mb-10 md:mb-20 text-center'>Our Upcoming Course</div>
+        <div className='orange-title-font mb-10 text-center'>Our Courses</div>
+        <div className='text-2xl font-mont font-semibold mb-10 md:mb-20 text-center'>Online Professional Design Courses</div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
         {data.map(item => (
                 <div key={item.id} className='text-center w-full justify-center'>
@@ -105,7 +106,8 @@ export default function Home() {
       </div>
       {/* courses section */}
       <div className='my-4 md:my-40'>
-        <div className='brown-title-font mb-10 md:mb-20 text-center'>Preparatory Course</div>
+        <div className='brown-title-font text-center'>Classroon Courses</div>
+        <div className='font-semibold mb-10 md:mb-20 text-center font-sans text-xl'>(for NID, U/CEED, NIFT)</div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
         {offLine.map(item => (
                 <div key={item.id} className='text-center w-full justify-center'>

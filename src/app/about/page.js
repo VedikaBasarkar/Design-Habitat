@@ -8,7 +8,7 @@ const About = () => {
       "id": 1,
       "url": "https://design-habitat.nyc3.cdn.digitaloceanspaces.com/profile-photos/square-bg-bw/pranali-bg-bw.jpg",
       "name": "Pranali Bankar",
-      "profile": "Cofounder & Mentor"
+      "profile": "Co-founder & Mentor"
     },
     {
       "id": 2,
@@ -117,7 +117,7 @@ const About = () => {
         </div>
 
         <div className='md:about-bg-1 bg-white'>
-          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-4 lg:my-0 lg:gap-6 pb-20 mx-5 lg:mx-28'>
+          <div className='grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 my-4 lg:my-0 lg:gap-6 pb-20 mx-5 lg:mx-28'>
             {/* <div className='w-1/3'> */}
             {data.map(item => (
               <div key={item.id} className='flex flex-col px-2 md:px-10 py-8 md:py-0'>

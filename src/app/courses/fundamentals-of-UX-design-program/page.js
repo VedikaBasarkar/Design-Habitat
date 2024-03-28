@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import HubspotForms from '@/components/hubspot-forms';
 import '../../../app/globals.css'
 
 const FundamentalOfUXDesignProgram = () => {
@@ -342,7 +343,12 @@ const FundamentalOfUXDesignProgram = () => {
               </div>
             </div>
             <div>
-              <form className="grid grid-cols-1 md:grid-cols-2 lg:my-0 lg:gap-2" onSubmit={handleRegistry}>
+            <HubspotForms 
+                region="na1"
+                portalId="45699251"
+                formId='03ba78e1-18ea-46de-a197-8435242ab524'
+                />
+              {/* <form className="grid grid-cols-1 md:grid-cols-2 lg:my-0 lg:gap-2" onSubmit={handleRegistry}>
                 <div>
                   <label>Name</label>
                   <input
@@ -416,7 +422,7 @@ const FundamentalOfUXDesignProgram = () => {
                   {errors.dob && <span>{errors.dob}</span>}
                 </div>
                 <button type="submit" className='bg-secondary-500 text-white font-mont rounded-full py-4 w-40'>Submit</button>
-              </form>
+              </form> */}
             </div>
           </div>
         </div>
