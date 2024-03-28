@@ -502,3 +502,5 @@ const AdvancedUXDesignProgram = () => {
     </div>
   );
 };
+
+export default AdvancedUXDesignProgram;
