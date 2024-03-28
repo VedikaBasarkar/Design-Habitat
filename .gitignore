@@ -26,8 +26,8 @@ pnpm-debug.log*
 package-lock.json
 
 /dist
-/.next
-.next
+# /.next
+# .next
 # Editor directories and files
 .idea
 .vscode

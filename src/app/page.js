@@ -129,7 +129,7 @@ export default function Home() {
         </div>
       </div>
       {/* about design habitat */}
-      <div className="rounded-mobBigBox lg:rounded-bigBox container bg-primary-400">
+      <div className="rounded-mobBigBox lg:rounded-bigBox container bg-primary-400 mb-20">
         <div className='flex flex-wrap lg:flex-row w-full py-8 md:py-16'>
           <div className='w-full lg:w-2/3 pr-2 lg:pr-20'>
             <div className='brown-title-font mb-1'>Little about Design Habitat</div>
